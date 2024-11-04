@@ -1,0 +1,98 @@
+1. Introduction and Purpose
+
+	•	Goal: Provide players with optimized team suggestions by comparing character stats and matching available characters to roles for the best possible team setup.
+	•	Target Audience: Players looking to optimize their character teams based on their unlocked characters and specific gameplay needs.
+
+2. App Structure
+
+1. Home Screen
+
+	•	Description: Introduction to the app with easy access to key features.
+	•	Features:
+	•	Quick Access Buttons: “View Characters,” “Compare Stats,” “Build Team,” and “View Teams.”
+	•	User Instructions: Simple guide on how to navigate the app.
+
+2. Character Database
+
+	•	Description: Database of all characters with detailed attributes and stats.
+	•	Features:
+	•	Character Profiles:
+	•	Basic Stats: HP, ATK, Phys DEF, Magic DEF
+	•	Offensive Stats: ATK SPD, Crit, Haste, DEF Penetration, Execution, Crit DMG Boost
+	•	Defensive Stats: Vitality, Life Drain, Crit Resist, Ranged DEF, Crit DMG DEF
+	•	Other Stats: Healing, Assistance, Energy on Hit, Debuff Focus, Resilience, Proficiency, Skill Power, Ultimate’s Power
+	•	Search and Filter Options: Filter characters by class, stats, rarity, etc.
+	•	Add/Edit/Delete: Allows players to update their character list based on unlocked characters.
+
+3. Compare Stats Screen
+
+	•	Description: Direct comparison of stats between two or more characters.
+	•	Features:
+	•	Select Characters: Dropdown or multi-select list to choose characters for comparison.
+	•	Stat Comparison Table: Side-by-side comparison of all key stats.
+	•	Comparison Metrics: Highlight strengths, weaknesses, and similarities.
+	•	Best Fit Suggestions: Highlight characters with stats fitting the desired role (e.g., Tank, DPS).
+
+4. Team Building Tool
+
+	•	Description: Helps users build teams by analyzing their available characters’ stats and roles.
+	•	Features:
+	•	Team Role Selection: Choose roles (Warrior, Support, Archer, Mage, Rogue) to fill.
+	•	Team Composition Recommendation: Suggests characters based on roles, synergy, and stats.
+	•	Artifact Assignment: Recommends artifacts for each character based on role and stats.
+	•	Multiple Modes: Allow for different team compositions based on game modes, like PvE or PvP.
+
+5. Saved Teams
+
+	•	Description: Database of saved teams for future reference.
+	•	Features:
+	•	Save Team: Save optimized teams for future access.
+	•	Edit Team: Update team members based on new character unlocks or strategy changes.
+	•	Team Comparison: Compare two or more saved teams for quick decision-making.
+	•	Performance Insights: Track performance metrics (if available) for each team in different game modes.
+
+6. Stats and Insights
+
+	•	Description: Provides additional insights to help players understand their character pool and team compositions.
+	•	Features:
+	•	Stat Trends: Shows averages, highest, and lowest stats across the player’s character pool.
+	•	Strengths and Weaknesses: Identify areas where the player’s roster excels or lacks (e.g., low defense across available characters).
+	•	Team Synergy Insights: Highlights effective combinations, such as complementary skills or boosting roles.
+
+7. Settings
+
+	•	Description: Manage app settings, preferences, and customization options.
+	•	Features:
+	•	Theme Options: Light, dark, and custom themes.
+	•	Notification Settings: Alerts for team recommendations or new character additions.
+	•	Data Backup and Restore: Option to back up the character and team data and restore as needed.
+
+8. Help and Support
+
+	•	Description: Guide and support section for users.
+	•	Features:
+	•	User Guide: Step-by-step guide on using each feature.
+	•	FAQ: Common questions and troubleshooting steps.
+	•	Contact Support: Link to support contact in case of app issues.
+
+3. Backend Structure
+
+Database Design
+
+	•	Tables:
+	•	Characters: Character profiles with unique attributes and stats.
+	•	Teams: Saved teams with members and roles.
+	•	Artifacts: Items with bonuses for characters and their effects.
+	•	UserData: User-specific data, including unlocked characters and preferences.
+
+Backend Logic
+
+	•	Character Comparison Algorithm: Logic to compare character stats and determine best role fits.
+	•	Team Composition Logic: Suggests optimal teams by balancing roles and selecting high-stat characters.
+	•	Synergy Analysis: Highlights effective skill combinations based on selected characters.
+
+4. Future Enhancements
+
+	•	User Accounts: Allow users to create accounts for cloud-based saving.
+	•	Multiplayer Team Sharing: Users can share team setups with friends.
+	•	Team Performance Tracking: Integrate data tracking for team success rates in game modes.
